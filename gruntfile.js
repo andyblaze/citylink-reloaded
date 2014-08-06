@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 
     uglify: {
       options: {
-        banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+        banner: '/*! <%= pkg.name %> • <%= grunt.template.today("yyyy-mm-dd") %> • A Blaze Communications Project • http://blazecommunications.com • - DO NOT EDIT - please use citylink-rl.js or create another */\n'
       },
       build: {
         src: ['js/*.js', 'js/*.min.js', 'js/citylink-rl.js'],
@@ -18,6 +18,10 @@ module.exports = function(grunt) {
 
       sass: {
     dist: {
+      options: {
+        style: 'compressed',
+        banner: '/*! <%= pkg.name %> • <%= grunt.template.today("yyyy-mm-dd") %> • A Blaze Communications Project • http://blazecommunications.com • - DO NOT EDIT - please use citylink-rl.js or create another */\n'
+      },
       files: {
         'css/citylink-rl.css': 'css/citylink-rl.scss',
       }
