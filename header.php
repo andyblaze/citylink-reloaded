@@ -29,7 +29,7 @@ $meta_key = "Consultants, mentoring, training, support, employers, employees";
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this website -->
-    <link href="css/citylink-rl.css" rel="stylesheet">
+    <link href="css/citylink-rl.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this website -->
 
