@@ -58,7 +58,6 @@ p {
   background-color: $yellow;
   padding: 30px;
   color: $green;
-  clear: both;
 }
 .nav>li>a:hover, .nav>li>a:focus {
   background-color: $green;
@@ -150,6 +149,9 @@ btn-y:hover {
   }
   .jumbotron {
     padding: 0;
+  }
+  .navbar-collapse {
+    clear: both;
   }
 }
 @media (min-width:760px) and (max-width:989px) {
