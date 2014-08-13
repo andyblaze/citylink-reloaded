@@ -7,7 +7,7 @@
             <li><a href="#"><img src="img/Twitter.png"></a></li>
             <li><a href="#"><img src="img/Linkedin.png"></a></li>
             <li><a href="#"><img src="img/Google-plus.png"></a></li>
-            <li class="phonenum"><a href="#"><h4>Tel. 08444 930 930<a></h4></li>
+            <li class="phonenum"><a href="#"><h4>Tel. 08444 930 930</a></h4></li>
               <br/>
           </ul>
           <p class="small">© 2014 City Link Ltd. Registered in England 01080872. Registered office:- City Link Ltd, Coventry Airpark, Siskin Parkway West, Baginton, Coventry, CV3 4PA.<br>

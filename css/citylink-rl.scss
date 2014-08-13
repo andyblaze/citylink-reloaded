@@ -144,7 +144,7 @@ btn-y:hover {
 }
 @media screen and (min-width:480px) {
   .callout-green {
-  background-image: url('../img/callout-green.png');
+  background: url('../img/callout-green.png') no-repeat center center;
   }
 }
 @media screen and (min-width:760px) {
