@@ -10,7 +10,7 @@ if(!isset($meta_desc)) {
 $meta_desc = "CityLink Reloaded &#124; Home";
 };
 if(!isset($meta_key)) {
-$meta_key = "Consultants, mentoring, training, support, employers, employees";
+$meta_key = "#";
 }
 
 ?>
@@ -42,13 +42,13 @@ $meta_key = "Consultants, mentoring, training, support, employers, employees";
 
     <div class="navbar navbar-static-top" id="nav">
       <div class="container">
-
-           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <a class="navbar-brand" href="#"><img src="img/citylink-logo.svg"></a>
+           <button type="button" class="navbar-toggle btn-y" data-toggle="collapse" data-target=".navbar-collapse">
             Menu
           </button>
-            <a class="navbar-brand" href="#"><img src="img/citylink-logo.svg"></a>
+
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav pull-right">
+          <ul class="nav navbar-nav">
             <li><a href="#">Home</a></li>
             <li><a href="#">Direct Debit</a></li>
             <li><a href="#">ebilling</a></li>

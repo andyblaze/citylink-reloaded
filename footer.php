@@ -14,7 +14,8 @@
           The name City Link is a registered trademark. View our <a href="http://www.city-link.co.uk/privacy-policy/" target="_blank">privacy policy</a> and <ahref="http://www.city-link.co.uk/cookie-policy/" target="_blank">cookie policy</a>.</p>
         </div>
          <div class="col-sm-4">
-           <a class="btn pull-right back-btn" id="back-to-top" href="#nav"><span class="glyphicon glyphicon-arrow-up"></span> Back to top</a>
+           <a class="btn pull-right btn-block back-btn" id="back-to-top" href="#nav"><span class="glyphicon glyphicon-arrow-up"></span> Back to top</a>
+         <br>
          </div>
        </div>
       </footer>

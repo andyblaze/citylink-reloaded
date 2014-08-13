@@ -21,6 +21,7 @@ $font-stack: "HelveticaRoundedLTStdBdCn", "Trebuchet MS", Helvetica, sans-serif;
 
 body {
 	font-family: $font-stack;
+  overflow-x: hidden;
 }
 img {
   width: 100%;
@@ -50,15 +51,16 @@ p {
   line-height: 200%;
 }
 // Navigation
-
+.navbar-brand {
+  height: 90px;
+}
+.navbar-collapse {
+  background-color: $yellow;
+  padding: 30px;
+  color: $green;
+}
 .nav>li>a:hover, .nav>li>a:focus {
-  background-color: #fff;
-}
-.navbar-nav {
-  margin-top: 40px;
-}
-.navbar-nav>li>a {
-  padding: 15px 5px;
+  background-color: $green;
 }
 .btn-y {
   background-color: $yellow;
@@ -138,21 +140,38 @@ btn-y:hover {
 .back-btn {
   color: $green;
   background-color: #b7cdbd;
+  margin-bottom: 40px;
 }
 // MQs
 @media screen and (max-width:786px) {
   .more-tab {
     padding: 10px 0 0;
   }
-}
-@media screen and (min-width:480px) {
-  .callout-green {
-  background: url('../img/callout-green.png') no-repeat center center;
+  .jumbotron {
+    padding: 0;
   }
 }
-@media screen and (min-width:760px) {
+@media (min-width:760px) and (max-width:989px) {
   .calloutbox {
     height: 210px;
+  }
+}
+@media screen and (min-width:768px) {
+  .callout-green {
+  background: $green url('../img/callout-green.png') no-repeat center center;
+  }
+  .navbar-nav {
+    float: right;
+    margin-top: 40px;
+  }
+  .navbar-nav>li>a {
+    padding: 15px 5px;
+  }
+  .nav>li>a:hover, .nav>li>a:focus {
+    background-color: $white;
+  }
+  .navbar-collapse {
+    background-color: $white;
   }
   .back-btn {
     margin-top: 100px;
