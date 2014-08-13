@@ -2,11 +2,11 @@
         <div class="container">
           <div class="col-sm-8">
             <ul class="social-widgets">
-            <li><a href="#"><img src="img/City-link.png"></a></li>
-            <li><a href="#"><img src="img/Facebook.png"></a></li>
-            <li><a href="#"><img src="img/Twitter.png"></a></li>
-            <li><a href="#"><img src="img/Linkedin.png"></a></li>
-            <li><a href="#"><img src="img/Google-plus.png"></a></li>
+            <li><a href="#"><img src="img/citylink.png"></a></li>
+            <li><a href="#"><img src="img/facebook.png"></a></li>
+            <li><a href="#"><img src="img/twitter.png"></a></li>
+            <li><a href="#"><img src="img/linkedin.png"></a></li>
+            <li><a href="#"><img src="img/googleplus.png"></a></li>
             <li class="phonenum"><a href="#"><h4>Tel. 08444 930 930</a></h4></li>
               <br/>
           </ul>

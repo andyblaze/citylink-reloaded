@@ -27,8 +27,8 @@ img {
   height: auto;
 }
 ul {
--webkit-padding-start: 0;
--moz-padding-start: 0;
+  -webkit-padding-start: 0;
+  -moz-padding-start: 0;
 }
 h1,
 h2,
@@ -116,6 +116,7 @@ btn-y:hover {
 
 .social-widgets {
   padding-top: 40px;
+  -moz-padding-start: 0;
 }
 .social-widgets li {
   display: inline;
