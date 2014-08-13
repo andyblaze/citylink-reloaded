@@ -37,16 +37,13 @@ $meta_key = "#";
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
   <body>
-
     <div class="navbar navbar-static-top" id="nav">
       <div class="container">
         <a class="navbar-brand" href="#"><img src="img/citylink-logo.svg"></a>
            <button type="button" class="navbar-toggle btn-y" data-toggle="collapse" data-target=".navbar-collapse">
             Menu
           </button>
-
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="#">Home</a></li>
