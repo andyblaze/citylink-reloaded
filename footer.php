@@ -7,12 +7,14 @@
             <li><a href="#"><img src="img/Twitter.png"></a></li>
             <li><a href="#"><img src="img/Linkedin.png"></a></li>
             <li><a href="#"><img src="img/Google-plus.png"></a></li>
-            <li><a href="#"><h4>Tel. 08444 930 930</h4></li>
+            <li class="phonenum"><a href="#"><h4>Tel. 08444 930 930<a></h4></li>
               <br/>
           </ul>
+          <p class="small">© 2014 City Link Ltd. Registered in England 01080872. Registered office:- City Link Ltd, Coventry Airpark, Siskin Parkway West, Baginton, Coventry, CV3 4PA.<br>
+          The name City Link is a registered trademark. View our <a href="http://www.city-link.co.uk/privacy-policy/" target="_blank">privacy policy</a> and <ahref="http://www.city-link.co.uk/cookie-policy/" target="_blank">cookie policy</a>.</p>
         </div>
          <div class="col-sm-4">
-           <a class="btn pull-right" id="back-to-top" href="#nav"><span class="glyphicon glyphicon-arrow-up"></span> Back to top</a>
+           <a class="btn pull-right back-btn" id="back-to-top" href="#nav"><span class="glyphicon glyphicon-arrow-up"></span> Back to top</a>
          </div>
        </div>
       </footer>

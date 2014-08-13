@@ -86,7 +86,6 @@ btn-y:hover {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: $green;
-  background-image: url('img/callout');
 }
 .callout-green p, .callout-green h3 {
   color: $white;
@@ -109,7 +108,9 @@ btn-y:hover {
 .callout-yellow h1 {
   color: $green;
 }
-
+.readmore {
+  vertical-align: baseline;
+}
 // footer
 
 .social-widgets {
@@ -128,8 +129,29 @@ btn-y:hover {
   display: inline-block;
   margin-bottom: 0;
 }
+.phonenum h4 {
+  display: inline;
+}
+.back-btn {
+  color: $green;
+  background-color: #b7cdbd;
+}
+// MQs
 @media screen and (max-width:786px) {
   .more-tab {
     padding: 10px 0 0;
+  }
+}
+@media screen and (min-width:480px) {
+  .callout-green {
+  background-image: url('../img/callout-green.png');
+  }
+}
+@media screen and (min-width:760px) {
+  .calloutbox {
+    height: 210px;
+  }
+  .back-btn {
+    margin-top: 100px;
   }
 }
