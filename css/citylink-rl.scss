@@ -12,9 +12,8 @@
 // variables
 
 $green: #005f36;
+$greenlight: #b7cdbd;
 $yellow: #ffd800;
-$white: #fff;
-$black: #000;
 $font-stack: "HelveticaRoundedLTStdBdCn", "Trebuchet MS", Helvetica, sans-serif;
 
 // general reset
@@ -29,6 +28,7 @@ img {
 }
 img.padding-20 {
   padding-top: 20px;
+  padding-bottom: 20px;
   // because Quark
 }
 ul {
@@ -103,44 +103,68 @@ blockquote {
 .carousel {
   background-color: $yellow;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
-.carousel-caption {
-  text-align: left;
-  left: 5%;
-  right: 5%;
-  text-shadow: none;
-  color: #000;
-  padding-top: 5px;
-  padding-bottom: 5px;
+.carousel-content {
+  padding: 10px;
 }
-.carousel-caption h3 {
+.carousel-content h3 {
   margin-top: 0;
   margin-bottom: 0;
 }
 .carousel-control.left, .carousel-control.right {
     background-image: none;
 }
-.panel-green {
+.panel {
   margin-top: 10px;
+  border-radius: 10px;
+}
+.panel hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 3px;
+}
+.panel h4, .panel p {
+  display: inline;
+}
+.btn-go {
+  width: 48px;
+}
+.panel-ylw .btn-go {
+  padding-top: 20px;
+}
+.panel-green {
   background-color: $green;
   color: $yellow;
-  border-radius: 10px;
 }
 .panel-green h3, .panel-green h4, .panel-green h5 {
   color: $yellow;
 }
 .panel-green hr {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  height: 3px;
   border-top: 2px dotted $yellow;
 }
-.panel-green h4 {
-  display: inline;
+.panel-yellow {
+  background-color: $yellow;
+  color: $green;
 }
-.panel-green .btn-go {
-  padding-top: 20px;
-  width: 58px;
+.panel-yellow h3, .panel-yellow h4, .panel-yellow h5 {
+  color: $green;
+}
+.panel-yellow hr {
+  border-top: 2px dotted $green;
+}
+.panel-international {
+  background: $green url('../img/globe.png') no-repeat right center;
+  background-size: 110px;
+}
+.panel-lightgreen {
+  background-color: $greenlight;
+}
+.panel-lightgreen h3, .panel-lightgreen h4, .panel-lightgreen h5 {
+  color: $green;
+}
+.panel-lightgreen hr {
+  border-top: 2px dotted $green;
 }
 
 // Home
@@ -152,7 +176,7 @@ blockquote {
   font-size: 18px;
 }
 .jumbotron {
-  background-color: $white;
+  background-color: #000;
 }
 .callout-green {
   margin-top: 40px;
@@ -161,7 +185,7 @@ blockquote {
   background-color: $green;
 }
 .callout-green p, .callout-green h3 {
-  color: $white;
+  color: #000;
 }
 .callout-green p {
   padding-bottom: 20px;
@@ -176,7 +200,7 @@ blockquote {
   background-color: $yellow;
 }
 .callout-yellow p, .callout-yellow h3 {
-  color: $black;
+  color: #000;
 }
 .callout-yellow h1 {
   color: $green;
@@ -203,6 +227,7 @@ blockquote {
   float: right;
   padding-bottom: 6px;
 }
+
 // footer
 
 .social-widgets {
@@ -227,7 +252,7 @@ blockquote {
 }
 .back-btn {
   color: $green;
-  background-color: #b7cdbd;
+  background-color: $greenlight;
   margin-bottom: 40px;
 }
 // MQs
@@ -259,10 +284,10 @@ blockquote {
     padding: 15px 5px;
   }
   .nav>li>a:hover, .nav>li>a:focus {
-    background-color: $white;
+    background-color: #fff;
   }
   .navbar-collapse {
-    background-color: $white;
+    background-color: #fff;
   }
   .back-btn {
     margin-top: 100px;

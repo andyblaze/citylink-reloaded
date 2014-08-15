@@ -62,6 +62,7 @@ include 'header.php'; ?>
         <?php include 'partials/sidebar-findoutmore.php';?>
         <?php include 'partials/sidebar-environment.php';?>
         <?php include 'partials/sidebar-newimproved.php';?>
+        <?php include 'partials/sidebar-international.php';?>
       </div>
     </div>
   </section>
