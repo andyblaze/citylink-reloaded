@@ -90,47 +90,12 @@ btn-y:hover {
   background-color: $green;
   color: $yellow;
 }
+img.btn {
+  width: 58px;
+}
 blockquote {
   border-left: none;
   padding: 0;
-}
-// Home
-
-.jumbotron h1 {
-  color: $green;
-}
-.jumbotron p {
-  font-size: 18px;
-}
-.jumbotron {
-  background-color: $white;
-}
-.callout-green {
-  margin-top: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: $green;
-}
-.callout-green p, .callout-green h3 {
-  color: $white;
-}
-.callout-green p {
-  padding-bottom: 20px;
-}
-.callout-green h1 {
-  color: $yellow;
-  padding-bottom: 10px;
-}
-.callout-yellow {
-  margin-top: 40px;
-  padding-top: 20px;
-  background-color: $yellow;
-}
-.callout-yellow p, .callout-yellow h3 {
-  color: $black;
-}
-.callout-yellow h1 {
-  color: $green;
 }
 
 // partials
@@ -174,15 +139,72 @@ blockquote {
   display: inline;
 }
 .panel-green .btn-go {
-  border-radius: 10px;
-  background-color: $yellow;
-  color: $green;
-  padding: 3px 4px 1px;
-  margin: 30px 0 3px;
-  float: right;
+  padding-top: 20px;
+  width: 58px;
 }
 .findoutmore {
   height: 142px;
+}
+
+// Home
+
+.jumbotron h1 {
+  color: $green;
+}
+.jumbotron p {
+  font-size: 18px;
+}
+.jumbotron {
+  background-color: $white;
+}
+.callout-green {
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: $green;
+}
+.callout-green p, .callout-green h3 {
+  color: $white;
+}
+.callout-green p {
+  padding-bottom: 20px;
+}
+.callout-green h1 {
+  color: $yellow;
+  padding-bottom: 10px;
+}
+.callout-yellow {
+  margin-top: 40px;
+  padding-top: 20px;
+  background-color: $yellow;
+}
+.callout-yellow p, .callout-yellow h3 {
+  color: $black;
+}
+.callout-yellow h1 {
+  color: $green;
+}
+
+// page - onourway
+
+.nopad-l {
+  padding-left: 0;
+  padding-right: 6px;
+}
+.nopad-r {
+  padding-left: 6px;
+  padding-right: 0;
+}
+.btn-system {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 22px;
+  border-radius: 10px;
+}
+.btn-system img {
+  float: right;
+  padding-bottom: 6px;
 }
 // footer
 

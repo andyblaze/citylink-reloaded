@@ -30,6 +30,7 @@ include 'header.php'; ?>
         rescheduling and alternative delivery options</li>
           <li>You’ll save time, hassle and money due to fewer delivery enquiries</li>
           <li>We’ll increase your customer satisfaction levels by improving first time deliveries and overall customer experience</li>
+        </ul>
         <h6>How does it work?</h6>
         <p>Once your parcel is scanned into our network we will send your customer a notification by email or SMS text* to let them know we will deliver the next day. On the morning of delivery we will send them another notification advising them of the estimated two-hour delivery time slot. The notifications will also give your customers the option to reschedule or track their parcel online.</p>
         <p>If you want to find out more, including details on the different messaging options, download our leaflet. The PDF should be on the right navigation and as an inline link.</p>
@@ -37,6 +38,23 @@ include 'header.php'; ?>
         <br/>
         <h6>How does it work?</h6>
         <p>Getting started is really easy. Simply, click on the button that reflects the booking/labelling solution you use to find out everything you need to know.</p>
+        <div class="col-sm-6 nopad-l">
+          <img src="img/systems/labelpower.png">
+          <a href="#" class="btn btn-block btn-y btn-system cufon">Is this your system?<img class="btn" src="img/go-grn.png"></a>
+          <img src="img/systems/xtend.png">
+          <a href="#" class="btn btn-block btn-y btn-system cufon">Is this your system?<img class="btn" src="img/go-grn.png"></a>
+          <img src="img/systems/labelcreation.png">
+          <a href="#" class="btn btn-block btn-y btn-system cufon">Is this your system?<img class="btn" src="img/go-grn.png"></a>
+        </div>
+        <div class="col-sm-6 nopad-r">
+          <img src="img/systems/mylabels.png">
+          <a href="#" class="btn btn-block btn-y btn-system cufon">Is this your system?<img class="btn" src="img/go-grn.png"></a>
+          <img src="img/systems/xtendimporter.png">
+          <a href="#" class="btn btn-block btn-y btn-system cufon">Is this your system?<img class="btn" src="img/go-grn.png"></a>
+          <img src="img/systems/metapack.png">
+          <a href="#" class="btn btn-block btn-y btn-system cufon">Is this your system?<img class="btn" src="img/go-grn.png"></a>
+        </div>
+        <h4>If you don’t recognise any of these options, please contact your account manager</h4>
       </div>
       <div class="col-sm-4">
         <?php include 'partials/sidebar-testimonial.php';?>

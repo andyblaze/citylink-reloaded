@@ -7,7 +7,7 @@
     <h4>Find out how you can get more out of City Link.</h4>
   </div>
   <div class="col-sm-4">
-    <a href="#" class="btn-go cufon">GO&nbsp;<span class="glyphicon glyphicon-play-circle"></span></a>
+    <a href="#"><img class="btn-go" src="img/go-ylw.png"></a>
   </div>
   <div class="clearfix"></div>
 </div>
