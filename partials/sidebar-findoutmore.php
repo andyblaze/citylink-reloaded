@@ -1,4 +1,4 @@
-<div class="panel panel-green findoutmore">
+<div class="panel panel-green">
   <div class="col-sm-12">
     <h3>Find out more.</h3>
     <hr>
@@ -9,5 +9,5 @@
   <div class="col-sm-4">
     <a href="#"><img class="btn-go" src="img/go-ylw.png"></a>
   </div>
-  <div class="clearfix"></div>
+  <div class="clearfix">&nbsp;</div>
 </div>

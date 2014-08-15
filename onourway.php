@@ -60,6 +60,8 @@ include 'header.php'; ?>
         <?php include 'partials/sidebar-testimonial.php';?>
         <?php include 'partials/sidebar-pdf.php';?>
         <?php include 'partials/sidebar-findoutmore.php';?>
+        <?php include 'partials/sidebar-environment.php';?>
+        <?php include 'partials/sidebar-newimproved.php';?>
       </div>
     </div>
   </section>
