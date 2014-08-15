@@ -1,5 +1,5 @@
 <?php
-  $page_title = 'Home &#124; Citylink - Get More';
+  $page_title = 'On Our Way &#124; Citylink - Get More';
   $meta_desc = "#";
 include 'header.php'; ?>
 
@@ -11,7 +11,16 @@ include 'header.php'; ?>
           <h3>“On Our Way is a brilliant offering giving our customers the opportunity to take control of their deliveries.”</h3>
           <attr>Charlie Lucas, Display Fix.</attr>
         </blockquote>
-        <h1>Improving your customerss delivery experience</h1>
+        <h1 class="jumbo">Improving your customers delivery experience</h1>
+      </div>
+      <div class="col-sm-4">
+        <img class="entry" src="img/sterile-worker.png">
+      </div>
+    </div>
+  </section>
+  <section class="row">
+    <div class="container">
+      <div class="col-sm-8">
         <p>On Our Way, our estimated time of arrival service, keeps your customers informed and gives them greater control over their deliveries. And what’s more the standard service is completely free*. Our helpful interactive solution lets your customers know what time their delivery will arrive – and easily reschedule or rearrange, if they wish!</p>
         <p>Once a delivery has been organised, we’ll give your customer a two-hour delivery time slot so they can plan their day efficiently, without having to wait around for goods to arrive. If the delivery time doesn’t suit them, they simply reschedule for another day or arrange for the parcel to be delivered to a neighbour, left in a safe place (if you give them this option), or collected from their local City Link depot. And B2B customers will benefit too, they will know in advance when to expect us allowing them to schedule activities dependant on the arrival.</p>
         <h6>Everyone benefits</h6>
@@ -29,10 +38,10 @@ include 'header.php'; ?>
         <h6>How does it work?</h6>
         <p>Getting started is really easy. Simply, click on the button that reflects the booking/labelling solution you use to find out everything you need to know.</p>
       </div>
-      <div class="col-md-4">
-      <?php include 'sidebar-testimonial.php';?>
-      <?php include 'sidebar-read.php';?>
-      <?php include 'sidebar-findout.php';?>
+      <div class="col-sm-4">
+        <?php include 'partials/sidebar-testimonial.php';?>
+        <?php include 'partials/sidebar-pdf.php';?>
+        <?php include 'partials/sidebar-findoutmore.php';?>
       </div>
     </div>
   </section>

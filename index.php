@@ -18,7 +18,7 @@ include 'header.php'; ?>
     <div class="container">
       <div class="col-xs-6">
       <div class="col-sm-6 more-tab">
-        <img src="img/moreflexible.png">
+        <img src="img/moreflexibility.png">
       </div>
       <div class="col-sm-6 more-tab">
         <img src="img/moreconvenient.png">
@@ -36,7 +36,7 @@ include 'header.php'; ?>
   <section class="callout-green">
     <div class="container">
       <!-- Example row of columns -->
-      <div class="col-md-12">
+      <div class="col-sm-12">
         <h1>Better systems from City Link.</h1>
       </div>
       <div class="col-sm-4">
@@ -66,10 +66,10 @@ include 'header.php'; ?>
   <section class="callout-yellow">
     <div class="container">
       <!-- Example row of columns -->
-      <div class="col-md-12">
+      <div class="col-sm-12">
         <h1>What else has been going on at City Link?</h1>
       </div>
-      <div class="col-md-12">
+      <div class="col-sm-12">
           <p>We’ve been modernising our operations and back-end processes. We’ve just completed the installation of our new hybrid- automation sorter at our Coventry hub which will enable us to improve efficiency and compliance without compromising our ability to take a varied mix of freight. And we’ve rolled out a smart, new branded uniform for all our drivers.</p>
           <p>To enhance tracking data and overall tracking compliance, we’re also starting to roll-out brand new driver hand-held devices with greatly improved battery life.</p>
           <p>Work continues on automating our claims process and developing a single eBooking and labelling solution for all of our services. We hope to be able to pilot both of these in the New Year.</p>

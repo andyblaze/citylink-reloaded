@@ -27,9 +27,18 @@ img {
   width: 100%;
   height: auto;
 }
+img.padding-20 {
+  padding-top: 20px;
+  // because Quark
+}
 ul {
   -webkit-padding-start: 0;
   -moz-padding-start: 0;
+  list-style-position: inside;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+  line-height: 200%;
 }
 h1,
 h2,
@@ -38,6 +47,9 @@ h4,
 h5 {
   font: $font-stack;
   color: $green;
+}
+h1.jumbo {
+  font-size:63px;
 }
 h6 {
   font-size: 14px;
@@ -61,6 +73,9 @@ p {
   background-color: $yellow;
   padding: 30px;
   color: $green;
+}
+.nav {
+  text-indent: 0;
 }
 .nav>li>a:hover, .nav>li>a:focus {
   background-color: $green;
@@ -117,10 +132,58 @@ blockquote {
 .callout-yellow h1 {
   color: $green;
 }
-.readmore {
-  vertical-align: baseline;
-}
 
+// partials
+
+.carousel {
+  background-color: $yellow;
+  border-radius: 10px;
+}
+.carousel-caption {
+  text-align: left;
+  left: 5%;
+  right: 5%;
+  text-shadow: none;
+  color: #000;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.carousel-caption h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+.panel-green {
+  margin-top: 10px;
+  background-color: $green;
+  color: $yellow;
+  border-radius: 10px;
+}
+.panel-green h3, .panel-green h4, .panel-green h5 {
+  color: $yellow;
+}
+.panel-green hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 3px;
+  border-top: 2px dotted $yellow;
+}
+.panel-green h4 {
+  display: inline;
+}
+.panel-green .btn-go {
+  border-radius: 10px;
+  background-color: $yellow;
+  color: $green;
+  padding: 3px 4px 1px;
+  margin: 30px 0 3px;
+  float: right;
+}
+.findoutmore {
+  height: 142px;
+}
 // footer
 
 .social-widgets {
@@ -167,7 +230,7 @@ blockquote {
 }
 @media screen and (min-width:768px) {
   .callout-green {
-  background: $green url('../img/callout-green.png') no-repeat center center;
+  background: $green url('../img/callout-greenv2.png') no-repeat center center;
   }
   .navbar-nav {
     float: right;
@@ -184,5 +247,8 @@ blockquote {
   }
   .back-btn {
     margin-top: 100px;
+  }
+  img.entry {
+    padding-top: 80px;
   }
 }
